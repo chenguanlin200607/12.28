@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="box1"> 
+    <view class="box1_1" wx:for="{{show}}" wx:key="key">
+      <image src="{{item.img}}" class="t1"/>
+      <view class="w1">{{item.title}}</view>
+    </view>
+  </view>
+  <view class="box1"> 
+    <view class="box1_1" wx:for="{{list}}" bindtap="listClick" data-id="{{item.id}}">
+      <image src="/img/t1.jpeg" class="t1"/>
+      <view class="w1">神奇女侠</view>
+    </view>
+    <!-- <view class="box1_1">
+      <image src="/img/t1.jpeg" class="t1"/>
+      <view class="w1">神奇女侠</view>
+    </view>
+    <view class="box1_1">
+      <image src="/img/t1.jpeg" class="t1"/>
+      <view class="w1">神奇女侠</view>
+    </view>
+    <view class="box1_1">
+      <image src="/img/t1.jpeg" class="t1"/>
+      <view class="w1">神奇女侠</view>
+    </view> -->
+  </view>
+</view>

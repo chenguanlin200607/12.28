@@ -1,0 +1,35 @@
+{
+  "pages": [
+      "pages/index/index",
+      "pages/logs/logs",
+      "pages/my/my"
+  ],
+  "tabBar": {
+      "color": "#3ABF54",
+      "selectedColor": "#3ABF54",
+      "backgroundColor": "#fff",
+      "borderStyle": "black",
+      "list": [
+          {
+              "pagePath": "pages/index/index",
+              "text": "找房",
+              "iconPath": "/img/爆米花1.png",
+              "selectedIconPath": "/img/爆米花2.png"
+          },
+          {
+              "pagePath": "pages/logs/logs",
+              "text": "发布房源",
+              "iconPath": "/img/电影1.png",
+              "selectedIconPath": "/img/电影2.png"
+          },
+          {
+              "pagePath": "pages/my/my",
+              "text": "我的",
+              "iconPath": "/img/我的1.png",
+              "selectedIconPath": "/img/我的3.png"
+          }
+      ]
+  },
+  "component": true,
+  "usingComponents": {}
+}

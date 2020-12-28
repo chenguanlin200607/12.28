@@ -1,0 +1,3 @@
+<!--pages/my/my.wxml-->
+
+<web-view src="{{url}}">1111</web-view>

@@ -1,0 +1,15 @@
+<view class="container">
+  <view wx:for="{{cardTeams}}" wx:key="{{index}}" wx:for-item="cardTeam" class="item">
+    <image class="img" src="{{cardTeam.imgsrc}}" mode="scaleToFill"></image>
+    <view class="number-wrapper">
+      <text class="name">{{cardTeam.name}}</text>
+      <view class="count-wrapper">
+        <text class="count">{{cardTeam.count}}</text>
+      </view>
+       <view class="details">
+      <navigator url="../details/details?goodsId={{index}}">查看详情</navigator>
+      </view>
+    </view>
+  </view>
+</view>
+ 
